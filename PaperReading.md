@@ -7,4 +7,4 @@
 
 | **Date**     | **Speaker**                                                                                    | **Previous Videos**|
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| TODO | [TODO](TODO for github link)       | Paper：[TODO for Paper Title](TODO for Paper Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
+| 2021/12/21 | [Shuangshuang CUI](TODO for github link)       | Paper：[TODO for Paper Title](TODO for Paper Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
