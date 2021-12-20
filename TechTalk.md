@@ -7,4 +7,4 @@
 
 | **Date**     | **Speaker**                                                                                    | **Previous Videos**|
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| TODO | [TODO](TODO for github link)       | Paper：[TODO for Tech Talk title](TODO for TEch Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
+| YYYY/MM/DD | [TODO](TODO for github link)       | Slide：[TODO for Tech Talk title](TODO for Tech Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
