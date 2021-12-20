@@ -8,3 +8,4 @@
 | **Date**     | **Speaker**                                                                                    | **Previous Videos**|
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | YYYY/MM/DD | [TODO](TODO for github link)       | Slide：[TODO for Tech Talk title](TODO for Tech Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
+| 2021/11/03 | [Ivan GAO](https://github.com/IvanGao01)<br>[Gilbert LIANG](https://github.com/Gilbert-Liang)| Slide：[TODO for Tech Talk title](TODO for Tech Talk Slide Link)<br>Video：[An Introduction to TSDB / 浅谈时序数据库](https://youtu.be/CUIF7T1GYfE)
