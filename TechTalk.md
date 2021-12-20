@@ -8,3 +8,4 @@
 | **Date**     | **Speaker**                                                                                    | **Previous Videos**|
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | YYYY/MM/DD | [TODO](TODO for github link)       | Slide：[TODO for Tech Talk title](TODO for Tech Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
+| 2021/12/15 | [Gilbert LIANG & Ivan GAO & Zipper](https://github.com/Gilbert-Liang<br>https://github.com/IvanGao01<br>https://github.com/zipper-meng)       | Slide：[TODO for Tech Talk title](TODO for Tech Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
