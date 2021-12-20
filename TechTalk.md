@@ -8,3 +8,4 @@
 | **Date**     | **Speaker**                                                                                    | **Previous Videos**|
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | TODO | [TODO](TODO for github link)       | Paper：[TODO for Tech Talk title](TODO for TEch Talk Slide Link)<br>Video：[TODO for Video Link](TODO for Video Link)   
+| 20211103 | @Gilbert & @Ivan | Paper：[Brief probe into TSDB / 浅谈时序数据库]<br>Video：[https://youtu.be/CUIF7T1GYfE]
