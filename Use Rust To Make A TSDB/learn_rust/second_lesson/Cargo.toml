@@ -1,0 +1,48 @@
+[package]
+name = "second_lesson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.0"
+
+
+
+
+[[bin]]
+name ="varables"
+path ="src/varables.rs"
+
+[[bin]]
+name ="types"
+path ="src/types.rs"
+
+[[bin]]
+name ="compose_type"
+path ="src/compose_types.rs"
+
+
+[[bin]]
+name ="life"
+path ="src/life.rs"
+
+[[bin]]
+name ="match"
+path ="src/match.rs"
+
+[[bin]]
+name="ownership"
+path="src/ownership.rs"
+
+[[bin]]
+name="borrow"
+path="src/borrow.rs"
+
+[[bin]]
+name ="class_test"
+path ="src/class_test.rs"
+
+
+

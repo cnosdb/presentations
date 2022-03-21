@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "first_lesson",
+    "second_lesson",
+]

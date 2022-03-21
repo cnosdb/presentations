@@ -1,0 +1,22 @@
+[package]
+name = "first_lesson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+# rand = "0.3"
+# hammer = { version = "0.5.0"}
+# color = { git = "https://github.com/bjz/color-rs" }
+# geometry = { path = "crates/geometry" }
+
+
+[[bin]]
+name="main"
+path="./src/main.rs"
+
+[[bin]]
+name="mut"
+path="./src/mut.rs"
