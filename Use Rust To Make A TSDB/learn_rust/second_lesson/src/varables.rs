@@ -1,5 +1,6 @@
 fn main() {
     /// 变量
+    /// 变量的可变性
     // let x = 1;
     let mut x = 3;
     println!("x: {}", x);
@@ -10,14 +11,14 @@ fn main() {
         println!("x: {}", x);
     }
 
-    // const y: i32 = 11;
+    // const w: u32= 11;
     const Y: i32 = 11;
     println!("Y: {}", Y);
 
     let (y, z) = (2, 3);
     println!("y: {}, z: {}", y, z);
 
-    ///垃圾回收机制(GC)，在程序运行时不断寻找不再使用的内存，典型代表：Java、Go
+    /// 垃圾回收机制(GC)，在程序运行时不断寻找不再使用的内存，典型代表：Java、Go
     /// 手动管理内存的分配和释放, 在程序中，通过函数调用的方式来申请和释放内存，典型代表：C++
     /// 通过所有权来管理内存，编译器在编译时会根据一系列规则进行检查
 
@@ -25,9 +26,10 @@ fn main() {
     /// 当所有者(变量)离开作用域范围时，这个值将被丢弃(drop)
 
     /// 转移所有权
+    /// 作用域还在  内存被转移
     let s1 = String::from("hello");
-    // let s2 = s1;
-    println!("{}, world!", s1);
+    let s2 = s1;
+    println!("{}, world!", s2);
 
     let x = 5;
     let y = x;

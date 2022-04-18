@@ -26,6 +26,11 @@ fn main() {
         _ => println!("something else"),
     }
 
+    struct Point {
+        x: i32,
+        y: i32,
+    }
+
     /// 解构 结构体/枚举
     let p = Point { x: 0, y: 7 };
 

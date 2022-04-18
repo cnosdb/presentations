@@ -41,6 +41,10 @@ name="borrow"
 path="src/borrow.rs"
 
 [[bin]]
+name="flowcontrol"
+path="src/flow_control.rs"
+
+[[bin]]
 name ="class_test"
 path ="src/class_test.rs"
 

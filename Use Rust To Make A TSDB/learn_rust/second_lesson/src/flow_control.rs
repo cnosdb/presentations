@@ -1,6 +1,4 @@
-
-
-fn main(){
+fn main() {
     /// 无处不在的 if else
     let n = 6;
     if n % 4 == 0 {
@@ -27,16 +25,28 @@ fn main(){
         println!("item: {}", item);
     }
     // 推荐使用下面这种方式进行遍历
-    for item in  &mut collection.iter_mut() {
+    for item in &mut collection.iter_mut() {
         *item = *item + 1;
     }
 
     let mut n = 0;
-    while n <= 5  {
+    while n <= 5 {
         println!("num n: {}", n);
         n = n + 1;
     }
 
+    // Vec是动态数组
+    let mut arr = Vec::new();
+
+    // 向数组尾部插入元素
+    arr.push(1);
+    arr.push(2);
+    arr.push(3);
+
+    // stack.pop从数组尾部弹出元素
+    while let Some(top) = arr.pop() {
+        println!("{}", top);
+    }
 
     /// break 可以单独使用，也可以带一个返回值，有些类似 return
     /// loop 是一个表达式，因此可以返回一个值

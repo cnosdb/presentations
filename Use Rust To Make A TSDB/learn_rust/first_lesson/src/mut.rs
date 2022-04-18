@@ -1,6 +1,5 @@
-
 fn main() {
-    // let x = 1; 
+    // let x = 1;
     let mut x = 3;
     println!("x: {}", x);
     x = 4;
@@ -9,5 +8,3 @@ fn main() {
     const Y: i32 = 11;
     println!("Y: {}", Y);
 }
-
-

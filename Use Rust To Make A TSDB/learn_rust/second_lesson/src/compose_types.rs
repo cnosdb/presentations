@@ -45,8 +45,6 @@ fn main() {
 
     ///枚举类型是一个类型，
     /// 它会包含所有可能的枚举成员, 而枚举值是该类型中的具体某个成员的实例。
-    ///
-
     struct Ipv4Addr {
         // --snip--
     }
@@ -61,7 +59,7 @@ fn main() {
     }
 
     enum Message {
-        get(),
+        get(String, String),
         put(String),
     }
 
@@ -71,7 +69,6 @@ fn main() {
     ///         Some(T),
     ///         None,
     ///     }
-    ///
     let some_number = Some(5);
     let some_string = Some("a string");
     let absent_number: Option<i32> = None;

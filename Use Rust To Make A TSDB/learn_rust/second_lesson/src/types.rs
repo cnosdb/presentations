@@ -4,9 +4,9 @@ fn main() {
     // 编译器会进行自动推导，给予twenty i32的类型
     let twenty = 20;
     // 类型标注
-    let twenty_one: i32 = 21;
+    let twenty_one: u32 = 21;
     // 通过类型后缀的方式进行类型标注：22是i32类型
-    let twenty_two = 22i32;
+    let twenty_two = 22u32;
 
     // 只有同样类型，才能运算
     let addition = twenty + twenty_one + twenty_two;
@@ -30,11 +30,6 @@ fn main() {
     if x.is_nan() {
         println!("undefined")
     }
-    //序列(Range)
-    for i in 0..10 {
-        print!(" {}", i);
-    }
-    println!();
 
     let a = Complex { re: 2.1, im: -1.2 };
     let b = Complex::new(11.1, 22.2);
@@ -42,8 +37,9 @@ fn main() {
 
     println!("{} + {}i", result.re, result.im);
     ///
-    /// Rust 拥有相当多的数值类型. 因此你需要熟悉这些类型所占用的字节数，这样就知道该类型允许的大小范围以及你选择的类型是否能表达负数
-    /// 类型转换必须是显式的.      Rust 永远也不会偷偷把你的 16bit 整数转换成 32bit 整数
+    /// Rust 拥有相当多的数值类型. 因此你需要熟悉这些类型所占用的字节数，这样就知道该类型允许的大小范围
+    /// 以及你选择的类型是否能表达负数
+    /// 类型转换必须是显式的.  Rust 永远也不会偷偷把你的 16bit 整数转换成 32bit 整数
     /// Rust 的数值上可以使用方法.
     ///
     let c1 = 'z';
@@ -57,7 +53,6 @@ fn main() {
 
     //string & slice
     let s = String::from("hello");
-
     let len = s.len();
 
     let slice = &s[0..len];

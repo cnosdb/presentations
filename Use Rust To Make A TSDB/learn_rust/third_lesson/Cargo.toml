@@ -1,0 +1,23 @@
+[package]
+name = "third_lesson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+
+[[bin]]
+name ="structured"
+path ="src/struct.rs"
+
+[[bin]]
+name ="generies"
+path ="src/generies.rs"
+
+
+[[bin]]
+name ="traits"
+path ="src/traits.rs"
