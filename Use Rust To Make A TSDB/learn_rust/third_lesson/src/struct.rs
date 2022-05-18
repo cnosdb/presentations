@@ -9,19 +9,19 @@ struct Rectangle {
 //使用 impl 来定义方法
 impl Rectangle {
     // new是Rectangle的关联函数
-    // new 通常用于创建实例
-    // pub fn new(x:u32, y:u32) -> Self{
-    //     Self{
-    //         width:x,
-    //         height:y,
-    //     }
-    // }
-    pub fn new(x: u32, y: u32) -> Rectangle {
-        Rectangle {
-            width: x,
-            height: y,
+    //new 通常用于创建实例
+    pub fn new(x:u32, y:u32) -> Self{
+        Self{
+            width:x,
+            height:y,
         }
     }
+    // pub fn new(x: u32, y: u32) -> Rectangle {
+    //     Rectangle {
+    //         width: x,
+    //         height: y,
+    //     }
+    // }
 
     pub fn area(&self) -> u32 {
         self.width * self.height
@@ -29,7 +29,7 @@ impl Rectangle {
     pub fn can_hold(&self, other: &Rectangle) -> bool {
         self.width > other.width && self.height > other.height
     }
-    pub fn width(&self) -> u32 {
+    fn width(&self) -> u32 {
         return self.width;
     }
     pub fn set_width(&mut self, x: u32) {
@@ -40,19 +40,19 @@ impl Rectangle {
     }
 }
 
-/*
-impl Rectangle {
-    fn area(&self) -> u32 {
-        self.width * self.height
-    }
-}
+//
+// impl Rectangle {
+//     fn area(&self) -> u32 {
+//         self.width * self.height
+//     }
+// }
+//
+// impl Rectangle {
+//     fn can_hold(&self, other: &Rectangle) -> bool {
+//         self.width > other.width && self.height > other.height
+//     }
+// }
 
-impl Rectangle {
-    fn can_hold(&self, other: &Rectangle) -> bool {
-        self.width > other.width && self.height > other.height
-    }
-}
-*/
 
 // fn main() {
 //     let rect1 = Rectangle {
@@ -79,7 +79,7 @@ impl Rectangle {
 // 枚举实现方法
 fn main() {
     #[derive(Debug)]
-    enum Action {
+    enum Action { //enum 像struct 去定义方法 ？ enum 编译器到底是怎么搞？
         Add,
         Subtract,
     }
@@ -93,10 +93,9 @@ fn main() {
         }
     }
 
-    let mut n = Action::Add;
-    println!("{:?}", n.run(1,2));
+    let n = Action::Add;
+    println!("{:?}", n.run(2,1));
 
-    let mut m = Action::Subtract;
+    let m = Action::Subtract;
     println!("{:?}", m.run(2,1));
-
 }

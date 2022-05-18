@@ -3,4 +3,5 @@ members = [
     "first_lesson",
     "second_lesson",
     "third_lesson",
+    "fourth_lesson"
 ]
