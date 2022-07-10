@@ -104,5 +104,9 @@ dependencies = [
 ]
 
 [[package]]
+name = "sixth_lesson"
+version = "0.1.0"
+
+[[package]]
 name = "third_lesson"
 version = "0.1.0"
