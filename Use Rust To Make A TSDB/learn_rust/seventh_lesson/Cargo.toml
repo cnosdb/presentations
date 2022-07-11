@@ -1,0 +1,16 @@
+[package]
+name = "seventh_lesson"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bench]]
+name = "rc_refcell"
+harness = false
+
+[dependencies]
+
+
+[dev-dependencies]
+criterion = "0.3"
