@@ -179,6 +179,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "eighth_lesson"
+version = "0.1.0"
+
+[[package]]
 name = "either"
 version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
