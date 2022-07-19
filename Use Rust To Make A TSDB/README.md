@@ -8,7 +8,7 @@ Rust简介，包括特性、发展历程、学习建议等。从一个Hello Worl
 
 [课程视频](https://www.bilibili.com/video/BV1xg411X7Bv/?spm_id_from=333.788)
 
-[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/Use%20Rust%20To%20Make%20A%20TSDB%EF%BC%88%E4%B8%80%EF%BC%89.pdf)
+[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/lesson_01.pdf)
 
 [课程代码](https://github.com/cnosdb/presentations/tree/main/Use%20Rust%20To%20Make%20A%20TSDB/learn_rust/first_lesson)
 
@@ -17,7 +17,7 @@ Rust简介，包括特性、发展历程、学习建议等。从一个Hello Worl
 
 [课程视频](https://www.bilibili.com/video/BV1594y1R7Fr/?spm_id_from=333.788)
 
-[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/Use%20Rust%20To%20Make%20A%20TSDB%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
+[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/lesson_02.pdf)
 
 [课程代码](https://github.com/cnosdb/presentations/tree/main/Use%20Rust%20To%20Make%20A%20TSDB/learn_rust/second_lesson)
 
@@ -26,15 +26,18 @@ Rust简介，包括特性、发展历程、学习建议等。从一个Hello Worl
 
 [课程视频](https://www.bilibili.com/video/BV1VW4y1U7MC/?spm_id_from=333.788)
 
-[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/Use%20Rust%20To%20Make%20A%20TSDB%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
+[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/lesson_02.pdf)
 
 [课程代码](https://github.com/cnosdb/presentations/tree/main/Use%20Rust%20To%20Make%20A%20TSDB/learn_rust/second_lesson)
 
-<!-- ### 4、rust 入门基础 (三)
-[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/Use%20Rust%20To%20Make%20A%20TSDB%EF%BC%88%E5%9B%9B%EF%BC%89.pdf)
+### 4、rust 入门基础 (三)
+[课程视频](https://www.bilibili.com/video/BV1RY4y177Vn/?spm_id_from=333.788)
+
+[pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/lesson_03.pdf)
 
 [课程代码](https://github.com/cnosdb/presentations/tree/main/Use%20Rust%20To%20Make%20A%20TSDB/learn_rust/fourth_lesson)
 
+<!--
 ### 5、rust 入门基础 (四)
 [pdf](https://github.com/cnosdb/presentations/blob/main/Use%20Rust%20To%20Make%20A%20TSDB/Use%20Rust%20To%20Make%20A%20TSDB%EF%BC%88%E4%BA%94%EF%BC%89.pdf)
 
