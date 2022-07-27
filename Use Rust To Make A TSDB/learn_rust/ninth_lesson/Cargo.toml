@@ -1,0 +1,18 @@
+[package]
+name = "ninth_lesson"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+pretty_assertions = "1"
+criterion = "0.3.6"
+
+[[bench]]
+name = "my_bench"
+harness = false
+
+[[bin]]
+name = "test"
+path = "src/test.rs"
