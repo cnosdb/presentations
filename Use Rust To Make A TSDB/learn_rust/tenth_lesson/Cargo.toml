@@ -1,0 +1,54 @@
+[package]
+name = "tenth_lesson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+
+[[bin]]
+name = "main"
+path = "./src/main.rs"
+
+[[bin]]
+name = "multi_thread"
+path = "./src/multi_thread.rs"
+
+[[bin]]
+name = "join_thread"
+path = "./src/join_thread.rs"
+
+[[bin]]
+name = "move_to_thread"
+path = "./src/move_to_thread.rs"
+
+[[bin]]
+name = "channel"
+path = "./src/channel.rs"
+
+[[bin]]
+name = "mutex"
+path = "./src/mutex.rs"
+
+[[bin]]
+name = "rwlock"
+path = "./src/rwlock.rs"
+
+[[bin]]
+name = "condvar"
+path = "./src/condvar.rs"
+
+[[bin]]
+name = "barrier"
+path = "./src/barrier.rs"
+
+[[bin]]
+name = "atomic"
+path = "./src/atomic.rs"
+
+[[bin]]
+name = "sync_and_send"
+path = "./src/sync_and_send.rs"
