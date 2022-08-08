@@ -9,5 +9,6 @@ members = [
     "seventh_lesson",
     "eighth_lesson",
     "ninth_lesson",
-    "tenth_lesson"
+    "tenth_lesson",
+    "eleventh_lesson"
 ]

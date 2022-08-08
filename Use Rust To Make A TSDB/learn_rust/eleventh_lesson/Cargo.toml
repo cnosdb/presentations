@@ -1,0 +1,37 @@
+[package]
+name = "eleventh_lesson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.21"
+tokio = { version = "1.2.0", features = ["full"] }
+
+
+[[bin]]
+name = "main"
+path = "./src/main.rs"
+
+[[bin]]
+name = "async"
+path = "./src/async.rs"
+
+[[bin]]
+name = "async_life"
+path = "./src/async_life.rs"
+
+[[bin]]
+name = "async_move"
+path = "./src/async_move.rs"
+
+[[bin]]
+name = "stream"
+path = "./src/stream.rs"
+
+[[bin]]
+name = "pin"
+path = "./src/pin.rs"
+
+
