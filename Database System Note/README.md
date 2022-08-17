@@ -4,6 +4,7 @@ Database System Note系列是Harbour基于他在CMU所学课程基础上，为�
 [课程目录 | Outline](https://github.com/cnosdb/presentations/tree/main/Database%20System%20Note)
 
 ### 1、大纲、数据库及数据库管理系统 | Outline, DB and DBMS
+#### 中文摘要
 1. 数据库定义
    - 对现实世界的某些方面进行建模的相互关联的数据的有组织的集合
 2. 数据库在产业链中的位置
@@ -17,7 +18,8 @@ Database System Note系列是Harbour基于他在CMU所学课程基础上，为�
      - 1991-2000：分析型数据库，例如Teradata，Greenplum等，该类数据库旨在建立随着大数据发展的专 业分析型数据库
      - 2001-2010：非结构化和半结构化的海量数据处理系统，例如NoSQL
      - 2010-2020：多源异构数据类型，例如NoSQL+Data Lake
-     
+
+#### English Summary
 1. Definition of Database
    - An organized collection of interrelated data that models certain aspects of the real world.
 2. The Position of Database in the Industrial Chain
