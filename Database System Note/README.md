@@ -17,6 +17,20 @@ Database System Note系列是Harbour基于他在CMU所学课程基础上，为�
      - 1991-2000：分析型数据库，例如Teradata，Greenplum等，该类数据库旨在建立随着大数据发展的专 业分析型数据库
      - 2001-2010：非结构化和半结构化的海量数据处理系统，例如NoSQL
      - 2010-2020：多源异构数据类型，例如NoSQL+Data Lake
+     
+1. Definition of Database
+   - An organized collection of interrelated data that models certain aspects of the real world.
+2. The Position of Database in the Industrial Chain
+   - It is located in the middle of the whole IT industry chain. Its upstream is network hardware manufacturers, such as server manufacturers, network equipment manufacturers, CPU manufacturers, etc. Its downstream is application developers, such as integrators and software developers. Besides, operating system manufacturers and middleware manufacturers also belong to the midstream, together with the database manufacturers.
+3. An Instance of Database and its Related Issues
+   - To construct a online music database for recording artists and their albums.
+4. Database Management System and its History
+   - Database Management System
+   - 40-year Development History of Database Management System
+     - 1980-1990：Relational Database, such as Oracle, Sybase, etc. This kind of database model realizes data management by classifying, merging, linking, selecting and other operations on one or more relational tables depicting data.
+     - 1991-2000: Analytical database, such as Teradata, Greenplum, etc. This kind of database aims to establish a professional analytical database with the development of big data.
+     - 2001-2010: Unstructured and semi-structured massive data processing systems, such as NoSQL.
+     - 2010-2020: Multi-source heterogeneous data types, such as NoSQL + data Lake.
 
 [课程视频 | Video](https://www.bilibili.com/video/BV1zi4y1Q7dh)
 
