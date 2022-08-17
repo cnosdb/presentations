@@ -20,4 +20,4 @@ Database System Note系列是Harbour基于他在CMU所学课程基础上，为�
 
 [课程视频 | Video](https://www.bilibili.com/video/BV1zi4y1Q7dh)
 
-[课程讲义 | Notes](https://github.com/cnosdb/presentations/blob/main/Database%20System%20Note%20/Lecture1.pdf)
+[课程讲义 | Notes](https://github.com/cnosdb/presentations/blob/main/Database%20System%20Note/Lecture1.pdf)
