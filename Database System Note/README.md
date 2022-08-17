@@ -1,7 +1,7 @@
 # 数据库系统讲义 | Database System Note
 Database System Note系列是Harbour基于他在CMU所学课程基础上，为普及数据库相关知识所开设的数据库系统讲义。
 
-[课程目录 | Outline](https://github.com/cnosdb/presentations/tree/main/Database%20System%20Note%20)
+[课程目录 | Outline](https://github.com/cnosdb/presentations/tree/main/Database%20System%20Note)
 
 ### 1、大纲、数据库及数据库管理系统 | Outline, DB and DBMS
 1. 数据库定义
