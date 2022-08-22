@@ -1,0 +1,55 @@
+# 数据库系统讲义 | Database System Note
+Database System Note系列是Harbour基于他在CMU所学课程基础上，为普及数据库相关知识所开设的数据库系统讲义。
+
+[课程目录 | Outline](https://github.com/cnosdb/presentations/tree/main/Database%20System%20Note)
+### 1、大纲、数据库及数据库管理系统 | Outline,Relational Model and Relational Algebra
+#### 中文摘要
+1.关系型模型
+ -现代关系型模型的三大特点在1970年 E.F. Codd的一片革命性论文中被奠定，分别为：1.以简单的数据结构（关系）存储数据，2.通过高级语言访问数据，3.物理存储留给实施，对上层应用透明
+2.数据模型
+ -数据模型是指用于描述数据库中数据的概念的集合
+3.关系模型的要素
+ -关系和元组
+  -关系是一个无序结合，它包含表示实体的属性的关系，例如一个表及表中的数据；元组是关系中的一组属性值也称为域。
+ -结构
+ -完整性：确保数据库的内容满足约束条件
+ -操作：确保数据库的内容满足约束条件
+ 4.主键Primary Key，外键 Foreign Key
+ -主键：若关系中的某一属性组的值能够唯一地表示一个元组，则改属性为关系的主键
+ -外键：指定一个关系中的属性必须映射到另一个关系的元组
+5.DML数据操纵语言
+ -DML是用于数据库操作，对数据库其中的对象和数据运行访问工作的编程语言，同时具备程序性和非程序性
+6.关系代数
+ -检索和操作关系中的元组的基本操作，每个操作将一个或多个关系作为其输入并输出一个新的关系。 
+
+#### English Summary
+1. Relational Model
+ -A revolutionary paper by E.F. Codd in 1970 underlay the 3 characteristics of modern relational model. They are: 1. To store data with a simple data structure (relation), 2. To access data through advanced languages, 3. To leave physical storage for implementation and transparency to upper-level applications
+
+2. Data Model
+ -A data model is a collection of concepts used to describe data in a database.
+
+3. Elements in Relational Model
+ - Structure
+ - Relation
+  -Relation is an unordered combination, which represents the relationship between attributes of instances, namely a table and the data in the table. 
+ -Tuple 
+  -A tuple, also known as a record, is a set of attribute values in a relation, namely a row in the table.
+ -Integrity
+To ensure that the contents of the database meet the constraints.
+ -Manipulation
+To ensure that the contents of the database meet the constraints.
+4 Primary Key,Foreign Keys
+ -Primary Key
+  -An attribute in a table that uniquely identifies every tuple in a database table.
+ -Foreign Keys
+  -Attributes used to link two tables together.
+5. DML (Data Manipulation Language)
+ -DML is a programming language used for database operation, running and accessing the objects and data in the database. It can be of either programmability or non-programmability.
+
+6. Relational Algebra
+ -The basic operation of retrieving and manipulating tuples in relations. Each operation takes one or more relation as its input and outputs a new one.
+ 
+ [课程视频 | Video](https://www.bilibili.com/video/BV1zi4y1Q7dh)
+
+[课程讲义 | Notes](https://github.com/cnosdb/presentations/blob/main/Database%20System%20Note/Lecture1.pdf)
